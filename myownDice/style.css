@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-family: sans-serif;
+    font-family: 'Caveat', cursive;
+    color: azure;
+    font-size: 3rem;
+    padding: 0%;
+    margin: 20px;
+}
+
+.d1 {
+    width: 400px;
+    height: 400px;
+}
+
+.palyer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn {
+    font-size: xx-large;
+    background-color: aliceblue;
+    color: black;
+}
+
+.jj {
+    display: flex;
+    justify-content: center;
+}
+
+.h11 {
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
