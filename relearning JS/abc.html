@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Num Counter Example</title>
+</head>
+
+<body>
+
+    <!-- Include the custom element -->
+    <num-counter>asdfgh</num-counter>
+
+    <!-- This script tag is not required if the JavaScript is in a separate file -->
+    <script>
+        // Optional: You can interact with the custom element using JavaScript if needed
+        const counterElement = document.querySelector('num-counter');
+
+        // For example, you can listen for custom events or interact with properties/methods
+        counterElement.addEventListener('click', () => {
+            console.log('Element clicked!');
+        });
+    </script>
+
+</body>
+
+</html>

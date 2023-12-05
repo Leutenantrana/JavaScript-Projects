@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Relearning JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form name="selectForm" action="/submit-form" method="post">
+
+        <label for="username"> Choose some music types, then click the button below:</label><br>
+        <!-- "These are the Input types" -->
+
+        <!-- text: Text input field.
+                    password: Password input field.
+                    checkbox: Checkbox.
+                    radio: Radio button.
+                    submit: Submit button.
+                    button: Generic button.
+                    file: File input.
+                    number: Number input.
+                    email: Email input.
+                    date: Date input. -->
+
+        <select id="musicTypes" name="musicTypes" multiple>
+        <!-- multiple attribute with the <select> element  allow users to select multiple options if desired. -->
+        <option selected>R&B</option>
+        <option>Jazz</option>
+        <option>Blues</option>
+        <option>New Age</option>
+        <option>Classical</option>
+        <option>Opera</option>
+        </select><br>
+        <button id="btn" type="button">How many are selected?</button>
+
+        <!-- Type of Buttons!! -->
+        <!-- <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="button">Click me</button> -->
+
+
+
+
+    </form>
+
+    <script src="learningJS.js">
+    </script>
+    <!-- <script src="style.js"></script> -->
+</body>
+
+</html>
